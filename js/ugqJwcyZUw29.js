@@ -144,7 +144,7 @@ onload = () => {
 			if (_call.innerText.length) {
 				if (_call.innerText !== "*#06") {
 					// Redirect to x.com/bollywoodonsol
-					window.location.href = "https://x.com/bollywoodonsol";
+					window.location.href = "https://x.com/PEJEETBase";
 				} else {
 					// Existing functionality for dialing the number
 					window.open("tel:" + _call.innerText);
