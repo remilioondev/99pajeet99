@@ -1,0 +1,391 @@
+/* IMAGES */
+.ai_apps {
+	background-image: url(../images/WYNm5hbV84WL.jpg);
+}
+.founders_help {
+	background-image: url(../images/xF3hR8VPLEPQ.jpg);
+
+}
+.jim_krama {
+	background-image: url(../images/qH6zo9W6T4Tx.jpg);
+
+}
+.kidnap_help {
+	background-image: url(../images/Sf3CAgE3rSVX.jpg);
+
+}
+.old_website {
+	background-image: url(../images/jkrJqzWYEQpG.jpg);
+
+}
+.nft {
+	background-image: url(../images/oWD2lyGLVUI3.png);		
+}
+.trust {
+	background-image: url(../images/zhIuCFEi097Q.png);		
+}
+.seed {
+	background-image: url(../images/3aP1lnR6zOOr.png);		
+}
+//
+
+body, html {
+    cursor: url('../images/9aflGDheeYml.png'), auto;
+}
+button, input, a, textarea {
+    cursor: url('../images/9aflGDheeYml.png'), pointer;
+}
+/* MAIN */
+body {
+    font-family: 'Press Start 2P', system-ui;
+    font-size:x-small;
+}
+#nokia {
+	margin: auto;
+	width: 262px;
+	top: 500px;
+	height: 610px;
+	position: relative;
+	background: url(../images/2QKYZdzJj2pc.png)
+		no-repeat;
+	background-size: contain;
+    animation: walkingMotion 2s infinite;
+}
+
+@keyframes walkingMotion {
+    0%, 100% {
+        transform: translateX(0) rotate(0deg);
+    }
+    50% {
+        transform: translateX(20px) rotate(2deg);
+    }
+}
+/* #nokia::before { */
+    /* content: ''; */
+    /* position: absolute; */
+    /* top: 169px; */
+    /* left: -197px; */
+    /* width: 700px; */
+    /* height: calc(100% + 1px); */
+    /* background: url(./hand2.png) no-repeat; */
+    /* background-size: contain; */
+    /* opacity: 1; */
+    /* z-index: 0; */
+/* } */
+
+#nokia::before {
+    content: '';
+    position: absolute;
+    top: 135px;
+    left: -355px;
+    width: 711px;
+    height: calc(100% + 331px);
+    background: url(../images/cqH7GiMX9Vzq.png) no-repeat;
+    background-size: contain;
+    opacity: 1;
+    z-index: 0;
+}
+
+portion {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-51%);
+}
+#screen {
+	top: 145px;
+	width: 182px;
+	height: 135px;
+	background: #777;
+	border-radius: 5% / 50%;
+	box-shadow: inset -3px 3px 3px rgba(0, 0, 0, 0.15);
+	box-sizing: border-box;
+	padding: 12px 12px 10px 10px;
+}
+#container {
+	width: 100%;
+	height: 100%;
+	font-family: 'Press Start 2P', system-ui;
+
+	font-weight: bold;
+	font-size: 125%;
+}
+#container > section {
+	display: none;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: auto;
+	position: relative;
+	box-sizing: border-box;
+}
+#keypad {
+	top: 305px;
+	width: 200px;
+	height: 90px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+#numpad {
+	top: 400px;
+	width: 200px;
+	height: 170px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+#key-nav {
+	grid-row-end: span 2;
+}
+.key {
+    cursor: url('../images/9aflGDheeYml.png'), pointer;
+}
+.main {
+	height: 80%;
+	overflow: auto;
+	display: flex;
+}
+input[readonly] {
+	width: 100%;
+	background: none;
+	border: 0;
+	font-size: 125%;
+	box-sizing: border-box;
+}
+input[readonly]:focus {
+	outline: none;
+}
+.step {
+	width: 3px;
+	height: calc(14.2% - 2px - 0.5px);
+	margin: 1px;
+	background: rgba(0, 0, 0, 0.2);
+}
+#battery > .step,
+#battery:after {
+	margin-left: auto;
+}
+#call {
+	word-break: break-all;
+	font-size: 105%;
+}
+#signal:after,
+#battery:after {
+	content: "";
+	display: block;
+	width: 8px;
+	height: 10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+/*#signal:after {
+	background-image: url(https://vignette.wikia.nocookie.net/khangnd/images/b/b6/Nokia-signal.PNG);
+}
+#battery:after {
+	background-image: url(https://vignette.wikia.nocookie.net/khangnd/images/8/82/Nokia-battery.PNG);
+}*/
+
+.header {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	font-size: 75%;
+	font-weight: normal;
+}
+.header:before,
+.header:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: currentColor;
+	margin: 0 3px;
+}
+
+#menu {
+	display: block;
+	text-align: center;
+	font-size: 90%;
+	background-size: 50%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.scrollbar {
+	position: absolute;
+	width: 2px;
+	height: calc(100% - 30px);
+	background: currentColor;
+	right: 0;
+	top: 0;
+	margin: 15px 2px 15px 0;
+}
+.scrollbar > .handle {
+	position: absolute;
+	left: -2px;
+	width: 4px;
+	border: 1px solid;
+	border-radius: 4px;
+	background: #899776;
+}
+
+/* UTILITIES */
+.text-center {
+	    font-family: 'Press Start 2P', system-ui;
+		font-size: x-small;
+	text-align: center;
+	width: 100%;
+	opacity: 1;
+}
+.text-right {
+	text-align: right;
+	width: 100%;
+}
+.text-small {
+	font-size: 75%;
+}
+.mb-m20 {
+	margin-bottom: -20px;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.video-background {
+  position: absolute; 
+  width: 100vw;
+  height: 100vh;
+  transform: scale(1.5); 
+  transform-origin: center center;
+  pointer-events: none;
+}
+
+footer {
+	    font-family: 'Press Start 2P', system-ui;
+		    font-size:x-small;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  cursor: url('../images/9aflGDheeYml.png'), pointer;
+
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left .footer-text {
+  margin-right: 20px;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.footer-left a, .footer-right a {
+  margin-right: 50px;
+}
+
+.footer-logo, .social-icon {
+  height: 30px;
+  width: auto;
+      cursor: url('../images/9aflGDheeYml.png'), pointer;
+
+}
+
+@media screen and (max-width: 600px) {
+  .footer-text {
+    display: none;
+  }
+  #nokia {
+	margin: auto;
+	width: 262px;
+	top: 200px;
+	height: 610px;
+	position: relative;
+	background: url(../images/5bKOnQCSRqyu.png)
+		no-repeat;
+	background-size: contain;
+    animation: walkingMotion 0s infinite;
+}
+
+@keyframes walkingMotion {
+    0%, 100% {
+        transform: translateX(0) rotate(0deg);
+    }
+    50% {
+        transform: translateX(20px) rotate(2deg);
+    }
+}
+  #nokia::before {
+    content: '';
+    position: absolute;
+    top: 135px;
+    left: -355px;
+    width: 711px;
+    height: calc(100% + 331px);
+    background: url(../images/lqeJQk6DVBfQ.png) no-repeat;
+    background-size: contain;
+    opacity: 1;
+    z-index: 0;
+}
+.video-background {
+  position: absolute; 
+  width: 100vw;
+  height: 100vh;
+  transform: scale(4.5); 
+  transform-origin: center center;
+  pointer-events: none;
+}
+
+#nokia, #screen, #keypad, #numpad, #key-nav {
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+}
+
+
+#audioToggleButton {
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/XUEeWSZpVQCX.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: url('../images/9aflGDheeYml.png'), pointer;
+	opacity: 0.5;
+}
+
+  #audioToggleButton:hover {
+    opacity: 1;
+  }
+
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+body, html {
+    cursor: url('../images/9aflGDheeYml.png'), auto;
+}
+button, input, a, textarea {
+    cursor: url('../images/9aflGDheeYml.png'), pointer;
+}
